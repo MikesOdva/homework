@@ -1,0 +1,209 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1366px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title{
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 136px;
+    margin-bottom: 23px;
+}
+
+.subtitle{
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 41px;
+}
+
+.desc{
+    font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+
+.price{
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 77px;
+    margin-top: 50px;
+    display: block;
+}
+
+.buttons{
+    
+
+
+}
+
+.btn{
+    text-decoration: none;
+    
+   
+
+}
+.blue{
+    border-radius: 5px;
+    border: 1px solid #4572d7;
+    background-color: #4572d7;
+    color: #ffffff;
+    padding: 20px 60px;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right:40px ;
+    
+
+}
+.white{
+    border-radius: 5px;
+    border: 2px solid #4572d7;
+    color: #4572d7;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 70px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.main-img{
+    margin-top: 160px;
+    
+}
+
+.main-text{
+    margin-left: 30px;
+   
+   
+}
+
+.pay{
+    height: 408px;
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+    margin-top: 231px;
+    margin-bottom: 88px;
+}
+
+.pay-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 185px;
+    margin-right: 153px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.pay-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.pay-item img {
+    margin: 0 auto;
+}
+
+.pay-item span {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+/* Původní kodovani mnou spatne */
+/* .pay-item{
+    width: 25%;
+    margin-top: 90px;
+}
+
+.pay span {
+    display: block;
+    text-align: center;
+}
+.pay img{
+    display: block;
+    align-items: center;
+} */
+
+.titleh3{
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+
+
+.titlepeople{
+    text-align: center;
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 88px;
+}
+
+
+
+.people-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 113px;
+    padding-right: 116px;
+}
+
+.people-block{
+    width: 24%;
+    height: 261px;
+    margin-top: 40px;
+    
+}
+
+.people-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .people-block {
+    display: flex; /* nastavení flexboxu */
+    justify-content: space-between; /* rovnoměrné rozložení prvků vedle sebe */
+    margin-right: 30px; /* odstup doprava */
+    margin-left: 30px; /* odstup doleva */
+} */
+
+/* display: flex 
+zajišťuje, že elementy v .container budou rozložené 
+vedle sebe
+
+flex-wrap: wrap 
+zajišťuje, že elementy se budou zalamovat na další řádky, 
+pokud se nevejdou do šířky rodiče
+
+justify-content: space-between
+ zajišťuje, že elementy budou rovnoměrně
+ rozložené mezi sebou */
